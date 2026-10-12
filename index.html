@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="合同会社angeのコーポレートサイト。メディア事業、キャスティング、情報発信などを通じて、新たな可能性をつなぎます。">
+<meta name="theme-color" content="#ffffff">
+<title>合同会社ange｜人と可能性をつなぐ</title>
+<style>
+:root{--gold:#a98243;--gold-light:#dfcfb1;--ink:#332e28;--muted:#746d63;--cream:#faf8f4;--line:#e9e0d2}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:"Noto Serif JP","Yu Mincho","Hiragino Mincho ProN",serif;line-height:1.9;letter-spacing:.045em}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1080px,calc(100% - 44px));margin:auto}
+header{height:78px;display:flex;align-items:center;border-bottom:1px solid var(--line);background:rgba(255,255,255,.94)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:baseline;gap:12px;color:var(--gold)}
+.brand-mark{font-family:"Bodoni 72","Didot",Georgia,serif;font-size:43px;letter-spacing:.01em;line-height:1}
+.brand-sub{font-size:11px;letter-spacing:.12em;color:#7b6545}
+nav{display:flex;gap:30px;font-size:13px}
+nav a:hover,.text-link:hover{color:var(--gold)}
+.hero{min-height:410px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 50%,rgba(222,195,146,.3),transparent 35%),linear-gradient(110deg,#fff 0%,#fcfaf6 52%,#f2e9da 100%)}
+.hero:after{content:"";position:absolute;right:-6%;top:-25%;width:58%;height:150%;border:1px solid rgba(169,130,67,.28);border-radius:50%;transform:rotate(-23deg);box-shadow:0 0 0 22px rgba(255,255,255,.15),0 0 0 48px rgba(169,130,67,.08)}
+.hero-inner{position:relative;z-index:1;padding:68px 0}
+.eyebrow{font-size:13px;color:var(--muted);letter-spacing:.2em;margin:0 0 12px}
+.hero h1{font-family:"Bodoni 72","Didot",Georgia,serif;font-weight:400;font-size:clamp(68px,10vw,116px);line-height:1;margin:0;color:var(--gold);letter-spacing:0}
+.hero h2{font-size:19px;font-weight:400;letter-spacing:.22em;margin:20px 0 12px}
+.hero p{font-size:14px;color:var(--muted);max-width:440px;margin:0}
+.english{font-family:Georgia,serif;font-size:10px;letter-spacing:.34em;color:var(--gold);margin-top:26px}
+section{padding:72px 0}
+.section-head{text-align:center;margin-bottom:38px}
+.section-head h2{font-size:22px;font-weight:400;letter-spacing:.16em;margin:0}
+.section-head p{font-family:Georgia,serif;font-size:11px;color:var(--gold);letter-spacing:.28em;margin:4px 0 0}
+.section-head:after{content:"";display:block;width:44px;height:1px;background:var(--gold);margin:17px auto 0}
+.business-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.business{padding:12px 28px 10px;text-align:center}
+.business+.business{border-left:1px solid var(--line)}
+.symbol{font-size:28px;color:var(--gold);font-family:Georgia,serif;margin-bottom:12px}
+.business h3{font-size:16px;font-weight:400;margin:0 0 12px}
+.business p{font-size:13px;color:var(--muted);margin:0}
+.company-contact{background:var(--cream)}
+.two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:72px;align-items:start}
+.company-table{width:100%;border-collapse:collapse;font-size:13px;background:#fff}
+.company-table th,.company-table td{border-bottom:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}
+.company-table th{width:110px;background:#f5f0e7;font-weight:400;white-space:nowrap}
+.contact-copy{font-size:14px;color:var(--muted);margin:0 0 24px}
+.contact-box{border:1px solid var(--gold);padding:22px 20px;text-align:center;background:#fff}
+.contact-box p{font-size:13px;margin:0;color:var(--muted)}
+.contact-box .contact-note{font-size:12px;margin-top:8px}
+footer{padding:26px 0;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}
+.footer-inner{display:flex;justify-content:space-between;gap:16px;align-items:center}
+.footer-brand{font-family:Georgia,serif;color:var(--gold);font-size:25px}
+@media(max-width:720px){
+ header{height:auto;padding:18px 0}.nav{align-items:flex-start;flex-direction:column;gap:14px}.brand-mark{font-size:36px}nav{gap:18px;flex-wrap:wrap;font-size:12px}
+ .hero{min-height:350px}.hero-inner{padding:56px 0}.hero:after{width:90%;right:-35%}.hero h2{font-size:16px}
+ section{padding:54px 0}.business-grid{grid-template-columns:1fr;gap:22px}.business{padding:8px 12px 22px}.business+.business{border-left:0;border-top:1px solid var(--line);padding-top:25px}
+ .two-col{grid-template-columns:1fr;gap:46px}.company-table th{width:90px;padding:10px}.company-table td{padding:10px}
+ .footer-inner{align-items:flex-start;flex-direction:column}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="合同会社ange トップ">
+      <span class="brand-mark">ange</span><span class="brand-sub">合同会社アンジェ</span>
+    </a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#home">ホーム</a><a href="#business">事業内容</a><a href="#company">会社概要</a><a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">人と可能性をつなぐ</p>
+      <h1>ange</h1>
+      <h2>新たな価値を、丁寧に。</h2>
+      <p>インターネットと人の力を通じて、<br>新しい出会いと可能性を創造します。</p>
+      <div class="english">CREATE NEW POSSIBILITIES</div>
+    </div>
+  </section>
+  <section id="business">
+    <div class="wrap">
+      <div class="section-head"><h2>事業内容</h2><p>BUSINESS</p></div>
+      <div class="business-grid">
+        <article class="business"><div class="symbol">◇</div><h3>メディア事業</h3><p>インターネットや各種媒体を活用した<br>情報発信・コンテンツ運営を行います。</p></article>
+        <article class="business"><div class="symbol">○</div><h3>キャスティング・人材支援</h3><p>インフルエンサーの仲介・キャスティングや<br>教育、活動支援に取り組みます。</p></article>
+        <article class="business"><div class="symbol">✧</div><h3>占い・カウンセリング関連</h3><p>占い・カウンセリングに関する事業や<br>関連サービスの運営を行います。</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="company-contact">
+    <div class="wrap two-col">
+      <div id="company">
+        <div class="section-head"><h2>会社概要</h2><p>COMPANY</p></div>
+        <table class="company-table">
+          <tr><th>会社名</th><td>合同会社ange</td></tr>
+          <tr><th>所在地</th><td>〒231-0861<br>神奈川県横浜市中区元町3-141-8</td></tr>
+          <tr><th>代表社員</th><td>田中 あずさ</td></tr>
+          <tr><th>事業内容</th><td>メディア事業、キャスティング・人材支援、占い・カウンセリング関連事業 ほか</td></tr>
+        </table>
+      </div>
+      <div id="contact">
+        <div class="section-head"><h2>お問い合わせ</h2><p>CONTACT</p></div>
+        <p class="contact-copy">事業に関するご相談・お問い合わせは、下記の窓口よりご連絡ください。</p>
+        <div class="contact-box">
+          <p>お問い合わせ窓口</p>
+          <p class="contact-note">公開前にメールアドレスまたはお問い合わせフォームのURLを設定してください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span class="footer-brand">ange</span><span>© <span id="year">2026</span> 合同会社ange All rights reserved.</span></div></footer>
+</body>
+</html>
